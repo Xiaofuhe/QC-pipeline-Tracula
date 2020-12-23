@@ -40,7 +40,9 @@ https://surfer.nmr.mgh.harvard.edu/fswiki/Tracula
 
 For DTIQC testing, FSL v5.0.11 and Freesurfer v6.0 is used.
 
-## Update: DTIQC is tested in the following environments:
+## Update
+
+DTIQC is tested in the following environments:
 -	Matlab2013b, Windows OS 7
 -	Matlab2013b, Windows OS 10
 -	Matlab2020a, Mac OS Catalina
