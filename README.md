@@ -3,7 +3,7 @@
 
 
 ## Overview
-For DTI data analysis, TRACULA (TRActs Constrained by UnderLying Anatomy) is a useful tool to reconstruct major white-matter pathways. In practice, some tracts can be partially reconstructed by TRACULA occasionally and therefore excluded from studies. Here, we propose DTIQC, a semi- automated quality control pipeline that can help recover the data. 
+For DTI data analysis, TRACULA (TRActs Constrained by UnderLying Anatomy) is a useful tool to reconstruct major white-matter pathways. In practice, occasionally some tracts can be only partially reconstructed by TRACULA and therefore have to be excluded from studies. Here, we propose DTIQC, a semi-automated quality control pipeline that facilitate quality control assessment and help recover the data. 
 
 For more details, please see the paper:
 
@@ -40,6 +40,13 @@ https://surfer.nmr.mgh.harvard.edu/fswiki/Tracula
 
 For DTIQC testing, FSL v5.0.11 and Freesurfer v6.0 is used.
 
+## Update: DTIQC is tested in the following environments:
+-	Matlab2013b, Windows OS 7
+-	Matlab2013b, Windows OS 10
+-	Matlab2020a, Mac OS Catalina
+
+Warning: DTIQC in Matlab2020a will write data into .csv format instead of Excel format.
+
 
 ##  Usage
 Step 1. DTI & T1 preprocessing 
@@ -70,7 +77,7 @@ Step 5. Reinitialize Parameters
 	"trac-all -path -c  dmrirc.studyName.Exam#"
  
 Step 6. Estimate Control Points
--	6.1 By running the shell script tracula_showOutputs_batch.sh, double check the results and correct the FAR and FRR cases if necessary.
+-	6.1 Run the shell script tracula_showOutputs_batch.sh to double check the results and correct the FAR and FRR cases if necessary.
 -	6.2 Edit the control points for partially reconstructed tracts by running the shell script tracula_editControlpoints_batch.sh.
 -	6.3 Run ras2vox_batch.m, convert the coordinates of the control points (please see: https://surfer.nmr.mgh.harvard.edu/fswiki/CoordinateSystems) from Right-Anterior-Superior (RAS, anatomical coordinates) to voxel space.
 -	6.4 Rerun TRACULA using edited control points.
