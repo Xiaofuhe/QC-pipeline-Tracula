@@ -1,21 +1,13 @@
 function showFAandColorMap_batch()
-%based on showFAandColorMap_GUI.m but automatically generate CFA image so that RAs can check the qc of CFA manually and visually
-
-% show FA and colormap in a batch
-% help:
-%.....use downarrow  (slice#-1) and uparrow (slice#+1) in the direction keys to control slice number
-%.....use 'Escape' key to exit
-%.....use 's' key to save the DAI image based on the suffix(e.g.,*_CFA.bmp, *_FA.bmp,*_MD.bmp, *_ADC.bmp)
-%.....use 'a' key to save all the slices of DAI images based on the suffix (e.g., *_CFA.bmp, *_FA.bmp,*_MD.bmp, *_ADC.bmp)
-%.....use '2' to flip Y direction
-%.....use 'c' key to crop images, in order to show all colored FA slices into one large image
-
+% based on showFAandColorMap_GUI.m but automatically generate CFA image so that RAs can check the qc of CFA manually and visually
+% show CFA in a batch mode
+ 
 % Xiaofu He,12/18/2020
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
 % email: DTIQC2020@yahoo.com
 
-global globalCodePath;%will be used in showDiffusiionAnisotropyIndices.m at line#40
+global globalCodePath; 
 globalCodePath='./Step2';%please set your ABSOLUTE path here
 addpath(genpath(globalCodePath));
 
