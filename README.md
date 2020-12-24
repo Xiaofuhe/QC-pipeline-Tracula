@@ -19,7 +19,7 @@ For support using our tool, please contact: DTIQC2020@yahoo.com
 
 	To install MATLAB, please check the system requirements and download the software from MathWorks: 
 
-	https://www.mathworks.com/support/requirements/matlab-system-requirements.html
+	https://www.mathworks.com/support/requirements/matlab-system-requirements.html \
 	https://www.mathworks.com/products/new_products/latest_features.html?s_tid=hp_release_2020b
 
 -	DTIQC requires SPM12. 
@@ -32,7 +32,7 @@ For support using our tool, please contact: DTIQC2020@yahoo.com
 
 	To install and use FSL and Freesurfer, please check the following documentations:
 
-	http://fsl.fmrib.ox.ac.uk/fsl/fslwiki
+	http://fsl.fmrib.ox.ac.uk/fsl/fslwiki \
 	http://freesurfer.net/
 
 -	For the usage of TRACULA, please see:
@@ -77,10 +77,8 @@ Run generateTagsOfSingleCurveTracts_auto_batch.m to automatically identify any u
 Step 5. Reinitialize Parameters
 -	Re-run TRACULA for tagged unsuccessful tracts with a single curve or missing curve etc.
 
-	Set reinit = 1 in the configuration file, e.g., dmrirc.studyName.Exam# then rerun 
-
-	"trac-all -prior -c  dmrirc.studyName.Exam#" and  
-	
+	Set reinit = 1 in the configuration file, e.g., dmrirc.studyName.Exam# then rerun \
+	"trac-all -prior -c  dmrirc.studyName.Exam#" and  \
 	"trac-all -path -c  dmrirc.studyName.Exam#"
  
 Step 6. Estimate Control Points
