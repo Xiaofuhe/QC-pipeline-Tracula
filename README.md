@@ -1,5 +1,5 @@
 # DTIQC  
-- a quality control pipeline for TRACULA
+- A Quality Control Pipeline for TRACULA
 
 
 ## Overview
@@ -56,19 +56,20 @@ Step 1. DTI and T1 preprocessing
 -	Run the Eddy correction toolbox from FMRIB Software Library (FSL) and FreeSurfer to preprocess DTI and T1-weighted structural images. 
 
 Step 2. Quality Control Assessment
--	Visually check the raw and eddy current corrected DW images, evaluate the generated color-encoded FA images. Remove motion-corrupted DTI from analyses and conduct probabilistic tractography using ball & stick model from FSL’s bedpost.
+-	2.1 Run showFAandColorMap_GUI.m to generate the Color and FA images in GUI mode, or run showFAandColorMap_batch.m in batch mode.
+
+-	2.2 Run outlierDetection_colorFA_GUI.m and outlierDetection_colorFA_batch.m to detect the outlier based on the color FA image in GUI and batch mode, respectively.
 
 Step 3. Run TRACULA
 -	Run TRACULA with default settings to reconstruct major white-matter pathways.
 
-Step 4. Assess Tract Quality.
-
+Step 4. Assess Tract Quality \
 Run generateTagsOfSingleCurveTracts_auto_batch.m to automatically identify any unsuccessfully reconstructed tracts, output will be saved as an excel file.
--	4.1 Copy ../freesurfer/matlab tool, freeSurfer_matlab comes from /usr/local/freesurfer/matlab where you have installed freesurfer before, current one is based on freesurfer v6.0.
+-	4.1 Copy ../freesurfer/matlab tool, this folder is usually located at /user/local/freesurfer/matlab, i.e. where you installed freesurfer.
 
--	4.2 Generate an empty excel file: Tracula_QC_empty_withTMI_template.xlsx is copied to Tracula_QC_empty_withTMI_test.xlsx, the exam list and group tag are initialized in Tracula_QC_empty_withTMI_test.xlsx.
+-	4.2 Generate an empty excel file, copy Tracula_QC_empty_withTMI_template.xlsx to Tracula_QC_empty_withTMI_yourStudyName.xlsx, copy the exam list and group tag to Tracula_QC_empty_withTMI_yourStudyName.xlsx.
 
--	4.3 Copy the pathTemplate to a location (e.g. ../pathTemplate) before running generateTagsOfSingleCurveTracts_auto_batch.m, current one is based on freesurfer v5.3. Note that pathstats.overall.txt is from an old template (Freesurfer v5.3) but not used in the stats, it does not affect the outcome since we use it here for quality control purpose only.
+-	4.3 Copy the pathTemplate to a location (e.g. ../pathTemplate) before running generateTagsOfSingleCurveTracts_auto_batch.m. Note that pathstats.overall.txt is from an old template (Freesurfer v5.3), it has no impact, since we use it here for quality control purpose only.
 
 -	4.4 Set up the path in the generateTagsOfSingleCurveTracts_auto_batch.m accordingly then run generateTagsOfSingleCurveTracts_auto_batch.m.
 

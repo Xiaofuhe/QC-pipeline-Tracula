@@ -1,0 +1,1 @@
+Please note: pathstats.overall.txt is copied from an old template (Freesurfer v5.3) but it is not used actually in the stats, so it does not matter since we only use it for QC purpose!

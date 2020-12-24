@@ -1,0 +1,32 @@
+# Title Pathway Statistics
+#
+# generating_program /software/FREESURFER/5_3_0/freesurfer_updateTracula/bin/dmri_pathstats
+# cvs_version 
+# cmdline /software/FREESURFER/5_3_0/freesurfer_updateTracula/bin/dmri_pathstats --intrc /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr --dtbase /Tracula/xxxx/dmri/dtifit --path fminor --subj xxxx --out /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr/pathstats.overall.txt --outvox /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr/pathstats.byvoxel.txt 
+# sysname Linux
+# hostname yyyy.hpc
+# machine x86_64
+# user zzzz
+# anatomy_type pathway
+#
+# subjectname xxxx
+# pathwayname rh.cab
+#
+Count 1500
+Volume 100
+Len_Min 100
+Len_Max 100
+Len_Avg 100
+Len_Center 100
+AD_Avg NaN
+AD_Avg_Weight NaN
+AD_Avg_Center NaN
+RD_Avg NaN
+RD_Avg_Weight NaN
+RD_Avg_Center NaN
+MD_Avg NaN
+MD_Avg_Weight NaN
+MD_Avg_Center NaN
+FA_Avg NaN
+FA_Avg_Weight NaN
+FA_Avg_Center NaN
