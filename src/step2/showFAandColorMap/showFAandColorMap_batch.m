@@ -2,7 +2,7 @@ function showFAandColorMap_batch()
 % based on showFAandColorMap_GUI.m but automatically generate CFA image so that RAs can check the qc of CFA manually and visually
 % show CFA in a batch mode
  
-% Xiaofu He,12/18/2020
+% Xiaofu He
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
 % email: DTIQC2020@yahoo.com
