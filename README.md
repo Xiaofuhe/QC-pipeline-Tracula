@@ -17,30 +17,29 @@ For support using our tool, please contact: DTIQC2020@yahoo.com
 
 -	DTIQC is developed and implemented in MATLAB. 
 
-To install MATLAB, please check the system requirements and download the software from MathWorks: 
+	To install MATLAB, please check the system requirements and download the software from MathWorks: 
 
-https://www.mathworks.com/support/requirements/matlab-system-requirements.html
-https://www.mathworks.com/products/new_products/latest_features.html?s_tid=hp_release_2020b
+	https://www.mathworks.com/support/requirements/matlab-system-requirements.html
+	https://www.mathworks.com/products/new_products/latest_features.html?s_tid=hp_release_2020b
 
 -	DTIQC requires SPM12. 
 
-To install SPM12, please check the SPM website:
+	To install SPM12, please check the SPM website:
 
-https://www.fil.ion.ucl.ac.uk/spm/software/spm12/ 
+	https://www.fil.ion.ucl.ac.uk/spm/software/spm12/ 
 
 -	To run through the pipeline, FSL and Freesurfer are needed. 
 
-To install and use FSL and Freesurfer, please check the following documentations:
+	To install and use FSL and Freesurfer, please check the following documentations:
 
-http://fsl.fmrib.ox.ac.uk/fsl/fslwiki
-
-http://freesurfer.net/
+	http://fsl.fmrib.ox.ac.uk/fsl/fslwiki
+	http://freesurfer.net/
 
 -	For the usage of TRACULA, please see:
 
-https://surfer.nmr.mgh.harvard.edu/fswiki/Tracula
+	https://surfer.nmr.mgh.harvard.edu/fswiki/Tracula
 
-For DTIQC testing, FSL v5.0.11 and Freesurfer v6.0 is used.
+-	In DTIQC testing, FSL v5.0.11 and Freesurfer v6.0 is used.
 
 ## Update
 
