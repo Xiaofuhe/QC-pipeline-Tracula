@@ -10,7 +10,7 @@ addpath(genpath(globalCodePath));
 % Xiaofu He,07/20/2016
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
-% email: xiaofuhe2008@yahoo.com
+% email: DTIQC2020@yahoo.com
 
 %set up parameters here for your study
 projectTag='Test';%cab used 4 points, ccg used 5 points

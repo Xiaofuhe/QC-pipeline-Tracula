@@ -13,7 +13,7 @@ function showFAandColorMap_GUI()
 % Xiaofu He,12/18/2020
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
-% email: xiaofuhe2008@yahoo.com
+% email: DTIQC2020@yahoo.com
 
 
 global globalCodePath;%will be used in showDiffusiionAnisotropyIndices.m at line#40

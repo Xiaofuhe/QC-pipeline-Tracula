@@ -19,7 +19,7 @@ function outlierDetection_colorFA_GUI()
 % Brain Imaging Lab
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
-% email: xiaofuhe2008@yahoo.com 
+% email: DTIQC2020@yahoo.com
 
 global globalCodePath;%will be used in showDiffusiionAnisotropyIndices.m at line#40
 globalCodePath='./Step2';%Set your ABSOLUTE path here!

@@ -22,7 +22,7 @@ function outlierDetection_colorFA_batch()
 % Brain Imaging Lab
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
-% email: xiaofuhe2008@yahoo.com 
+% email: DTIQC2020@yahoo.com 
 
 global globalCodePath; 
 globalCodePath='./Step2';%please put your ABSOLUTE script path here
