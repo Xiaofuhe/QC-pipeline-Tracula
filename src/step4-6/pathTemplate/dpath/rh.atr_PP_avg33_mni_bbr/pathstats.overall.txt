@@ -1,8 +1,8 @@
 # Title Pathway Statistics
 #
-# generating_program /software/FREESURFER/5_3_0/freesurfer_updateTracula/bin/dmri_pathstats
+# generating_program /freesurfer_updateTracula/bin/dmri_pathstats
 # cvs_version 
-# cmdline /software/FREESURFER/5_3_0/freesurfer_updateTracula/bin/dmri_pathstats --intrc /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr --dtbase /Tracula/xxxx/dmri/dtifit --path fminor --subj xxxx --out /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr/pathstats.overall.txt --outvox /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr/pathstats.byvoxel.txt 
+# cmdline /freesurfer_updateTracula/bin/dmri_pathstats --intrc /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr --dtbase /Tracula/xxxx/dmri/dtifit --path fminor --subj xxxx --out /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr/pathstats.overall.txt --outvox /Tracula/xxxx/dpath/fminor_PP_avg33_mni_bbr/pathstats.byvoxel.txt 
 # sysname Linux
 # hostname yyyy.hpc
 # machine x86_64

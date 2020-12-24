@@ -69,7 +69,7 @@ Run generateTagsOfSingleCurveTracts_auto_batch.m to automatically identify any u
 
 -	4.2 Generate an empty excel file, copy Tracula_QC_empty_withTMI_template.xlsx to Tracula_QC_empty_withTMI_yourStudyName.xlsx, copy the exam list and group tag to Tracula_QC_empty_withTMI_yourStudyName.xlsx.
 
--	4.3 Copy the pathTemplate to a location (e.g. ../pathTemplate) before running generateTagsOfSingleCurveTracts_auto_batch.m. Note that pathstats.overall.txt is from an old template (Freesurfer v5.3), it has no impact, since we use it here for quality control purpose only.
+-	4.3 Copy the pathTemplate to a location (e.g. ../pathTemplate) before running generateTagsOfSingleCurveTracts_auto_batch.m.
 
 -	4.4 Set up the path in the generateTagsOfSingleCurveTracts_auto_batch.m accordingly then run generateTagsOfSingleCurveTracts_auto_batch.m.
 
