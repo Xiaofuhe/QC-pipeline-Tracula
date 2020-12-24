@@ -1,5 +1,5 @@
 function showFAandColorMap_GUI()
-% show FA and colormap in a in a gui mode, i.e use GUI to load the data
+% show FA and colormap in a in a gui mode, i.e use GUI to load the tesnsor data
 %  
 %note: if you want to show only gray FA, please use MRIcro or FSLeyes
 % help:
@@ -10,13 +10,13 @@ function showFAandColorMap_GUI()
 %.....use '2' to flip Y direction
 %.....use 'c' key to crop images, in order to show all colored FA slices into one large image
 
-% Xiaofu He,12/18/2020
+% Xiaofu He
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
 % email: DTIQC2020@yahoo.com
 
 
-global globalCodePath;%will be used in showDiffusiionAnisotropyIndices.m at line#40
+global globalCodePath;
 globalCodePath='./Step2';%please set your ABSOLUTE path here
 addpath(genpath(globalCodePath));
 
