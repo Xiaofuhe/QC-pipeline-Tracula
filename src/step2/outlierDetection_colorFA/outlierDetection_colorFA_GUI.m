@@ -1,9 +1,6 @@
 function outlierDetection_colorFA_GUI()
-%Usage:detect the outlier based on the FA color map (.d or .mat) which is gotten by openFileDlg
-%based on tensor file (.d or .mat)
-%if you need to test only one slice image, please use RGB2Lab_test.m
-
-%similar with outlierDetection_batch.m except no B0. Moreover, the FA_color is already segmented 
+%Usage:detect the outlier based on the FA color map which was generated from tensor file  
+ 
 %input parameter: 
 %......imgFullName: the full file name of the image which includes path
 %......maskFullName: the full file name of the mask which includes path
@@ -15,13 +12,13 @@ function outlierDetection_colorFA_GUI()
 %.....................measureMethod: same to input parameter
 %.....................calRefImgMethod: same to input parameter
 
-% Xiaofu He,1/27/2012
+% Xiaofu He
 % Brain Imaging Lab
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
 % email: DTIQC2020@yahoo.com
 
-global globalCodePath;%will be used in showDiffusiionAnisotropyIndices.m at line#40
+global globalCodePath;
 globalCodePath='./Step2';%Set your ABSOLUTE path here!
 addpath(genpath(globalCodePath));
 
