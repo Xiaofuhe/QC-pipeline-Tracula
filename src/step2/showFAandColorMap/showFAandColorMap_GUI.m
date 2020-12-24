@@ -1,12 +1,12 @@
 function showFAandColorMap_GUI()
 % show FA and colormap in a in a gui mode, i.e use GUI to load the data
-%usage: show color FA image which is based on *.d  
+%  
 %note: if you want to show only gray FA, please use MRIcro or FSLeyes
 % help:
 %.....use downarrow  (slice#-1) and uparrow (slice#+1) in the direction keys to control slice number
 %.....use 'Escape' key to exit
-%.....use 's' key to save the DAI image based on the suffix(e.g.,*_CFA.bmp, *_FA.bmp,*_MD.bmp, *_ADC.bmp)
-%.....use 'a' key to save all the slices of DAI images based on the suffix (e.g., *_CFA.bmp, *_FA.bmp,*_MD.bmp, *_ADC.bmp)
+%.....use 's' key to save the image based on the suffix(e.g.,*_CFA.bmp and *_FA.bmp)
+%.....use 'a' key to save all the slices of DAI images based on the suffix (e.g., *_CFA.bmp and *_FA.bmp)
 %.....use '2' to flip Y direction
 %.....use 'c' key to crop images, in order to show all colored FA slices into one large image
 
