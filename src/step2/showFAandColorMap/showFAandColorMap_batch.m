@@ -1,23 +1,13 @@
 function showFAandColorMap_batch()
-%based on showFAandColorMap_GUI.m but automatically generate CFA and FA maps  that RAs can check the qc of CFA manually and visually
-
-% show FA and colormap in a batch
-% if you want to show CFA image only, please use showFAColorMap_basedonCMP_batch.m which is based on .cmp file, faster than this function since it need to generate CFA,FA,MD..from .d file
-% similar with showFAandColorMap_GUI which is only show one data
-% help:
-%.....use downarrow  (slice#-1) and uparrow (slice#+1) in the direction keys to control slice number
-%.....use 'Escape' key to exit
-%.....use 's' key to save the DAI image based on the suffix(e.g.,*_CFA.bmp, *_FA.bmp,*_MD.bmp, *_ADC.bmp)
-%.....use 'a' key to save all the slices of DAI images based on the suffix (e.g., *_CFA.bmp, *_FA.bmp,*_MD.bmp, *_ADC.bmp)
-%.....use '2' to flip Y direction
-%.....use 'c' key to crop images, in order to show all colored FA slices into one large image
-
-% Xiaofu He,12/18/2020
+% based on showFAandColorMap_GUI.m but automatically generate CFA image so that RAs can check the qc of CFA manually and visually
+% show CFA in a batch mode
+ 
+% Xiaofu He
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
 % email: DTIQC2020@yahoo.com
 
-global globalCodePath;%will be used in showDiffusiionAnisotropyIndices.m at line#40
+global globalCodePath; 
 globalCodePath='./Step2';%please set your ABSOLUTE path here
 addpath(genpath(globalCodePath));
 
@@ -33,8 +23,7 @@ tempCD=cd;
 examParameter.maskPath=[];%default no mask path, will auto load it below
 showPara.savedImagePath=savedpath;
 showPara.ifAutoSave=1;%autosave some maps
-showPara.ifSaveCFA=1;%save CFA only which will speed up! but will only work for '.d' file instead of '.mat' which DAIdata was already generated
-                     %so, you may regenerate '.mat' by set ifSaveDAI=1
+showPara.ifSaveCFA=1;%save CFA only which will speed up!
 
 examParameter.tensorSuffix='_eddy_tensor.nii.gz';%e.g., /sub-01/FDT/sub-01_dwi_eddy_tensor.nii.gz
 examParameter.maskSuffix='_eddy_b0_noskull.nii.gz';%e.g., /sub-01/FDT/sub-01_dwi_eddy_b0_noskull.nii.gz

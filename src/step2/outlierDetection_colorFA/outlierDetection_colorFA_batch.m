@@ -1,12 +1,8 @@
 function outlierDetection_colorFA_batch()
-%simiar with outlierDetection_colorFA_batch.m which only processes one exam#
-%In this function, we calculate all measureMatrix_ab for training dataset.
-%if you need to test only one subject data, please run outlierDetection_colorFA_GUI.m
+%similar to outlierDetection_colorFA_GUI.m but this function runs in the batch mode
 
-%Usage:detect the outlier based on the FA color map (.d or .mat) in batch
-%based on tensor file (.d or .mat)
+%Usage:detect the outlier based on the FA color map which is generated from tensor file 
 
-%similar with outlierDetection_batch.m except no B0. Moreover, the FA_color is already segmented 
 %input examParameter: 
 %......imgFullName: the full file name of the image which includes path
 %......maskFullName: the full file name of the mask which includes path
@@ -18,7 +14,7 @@ function outlierDetection_colorFA_batch()
 %.....................measureMethod: same to input examParameter
 %.....................calRefImgMethod: same to input examParameter
 
-% Xiaofu He,3/7/2012
+% Xiaofu He
 % Brain Imaging Lab
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center

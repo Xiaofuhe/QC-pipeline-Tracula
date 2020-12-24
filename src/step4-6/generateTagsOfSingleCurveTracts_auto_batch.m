@@ -1,13 +1,13 @@
 function generateTagsOfSingleCurveTracts_auto_batch()
-% this function automatically detect those single curve filbers, then
-%output them to an excel file and convert those vox to ras for those single curve fibers
+% this function automatically detect the single curve fibers, then
+%output them to an excel file and convert those vox to ras for those single curve fibers so that you can edit the control points
 
-global globalCodePath;%will be used in showDiffusiionAnisotropyIndices.m at line#40
+global globalCodePath; 
 globalCodePath='./Steps4-6';%Please set your ABSOLUTE path here
 addpath(genpath(globalCodePath));
 
 
-% Xiaofu He,07/20/2016
+% Xiaofu He
 % Division of Child&Adolescent Psychiatry,
 % Columbia University Medical Center
 % email: DTIQC2020@yahoo.com
