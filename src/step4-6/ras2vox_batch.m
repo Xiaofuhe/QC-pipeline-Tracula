@@ -1,5 +1,4 @@
 function ras2vox_batch() 
-%refer to step6.3 in the readme.txt
 % you need to firstly run generateTagsOfSingleCurveTracts_auto_batch.m
 
 % Xiaofu He,07/15/2016
