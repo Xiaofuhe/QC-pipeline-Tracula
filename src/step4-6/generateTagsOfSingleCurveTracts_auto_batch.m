@@ -22,6 +22,11 @@ emptyExcelFile.filename='./Tracula_QC_empty_withTMI_test.xlsx';%Please set your 
 emptyExcelFile.sheetname='Sheet1';
 savedPath='./data/QC/Tracula/beforeEdit';%Please set your ABSOLUTE path to save the result
 traculaPath='./data/Derivatives/Tracula/beforeEdit';%set up you ABSOLUTE Tracula path
+%e.g., data structure should follow below
+%./data/Derivatives/Tracula/beforeEdit/sub-01
+%./data/Derivatives/Tracula/beforeEdit/sub-01/dlabel
+%./data/Derivatives/Tracula/beforeEdit/sub-01/dmri
+%./data/Derivatives/Tracula/beforeEdit/sub-01/dpath
 %detectMethod='singleCurves';%method1: default, but you may miss some small tracts!  
 detectMethod='singleCurvesAndSmall';%method2, will exclude small tracts besides single curves, but may casuse false alarm, so need to ask RAs to manally and visually recheck them
 pathlist=['#lh.cst_AS 6##rh.cst_AS 6#'...
