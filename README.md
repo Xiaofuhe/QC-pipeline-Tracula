@@ -7,8 +7,7 @@ For Diffusion Tensor Imaging (DTI) data analysis, TRACULA (TRActs Constrained by
 
 For more details, please see the paper:
 
-He X. et al. 2020 “A Quality Control Pipeline for Probabilistic Reconstruction of White-matter Pathways ", Journal of Neuroscience Methods, under revision.
-
+He X, Stefan M, Pagliaccio D, Khamash L, Fontaine M, Marsh R (2021). A Quality Control Pipeline for Probabilistic Reconstruction of White-matter Pathways. Journal of Neuroscience Methods. doi.org/10.1016/j.jneumeth.2021.109099
 
 ## Support
 For support using our tool, please contact: DTIQC2020@yahoo.com
@@ -105,5 +104,6 @@ The use of the scripts and the tools is At Your Own Risk, the user is responsibl
 
 If you use this tool, please cite the following papers:
 
--	He X. et al. 2014. "Automated Assessment of the Quality of Diffusion Tensor Imaging Data Using Color Cast of Color-Encoded Fractional Anisotropy Images", Magnetic resonance imaging 32(5): 446-56.
--	He X. et al. 2020. "A Quality Control Pipeline for Probabilistic Reconstruction of White-matter Pathways", Journal of Neuroscience Methods, under revision.
+-	He X, Liu W, Li X, Li Q, Liu F, Rauh VA, Yin D, Bansal R, Duan Y, Kangarlu A, Peterson BS, Xu D (2014). Automated assessment of the quality of diffusion tensor imaging data using color cast of color-encoded fractional anisotropy images. Magnetic resonance imaging. doi.org/10.1016/j.mri.2014.01.013
+
+-	He X, Stefan M, Pagliaccio D, Khamash L, Fontaine M, Marsh R (2021). A Quality Control Pipeline for Probabilistic Reconstruction of White-matter Pathways. Journal of Neuroscience Methods. doi.org/10.1016/j.jneumeth.2021.109099
